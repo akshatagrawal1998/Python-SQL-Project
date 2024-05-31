@@ -1,0 +1,34 @@
+Here are 25 questions, ranging from basic to intermediate to advanced, that you can use to deepen your understanding of Python data science techniques using the dataset you provided. These questions will help you explore data cleaning, manipulation, visualization, and analysis using Python:
+
+ Basic Level
+1. Load Data: How do you load the dataset into a pandas DataFrame?
+2. Data Inspection: Write a Python script to display the first five rows of the dataset.
+3. Basic Information: How can you get the summary of data types and non-null counts in the dataset?
+4. Descriptive Statistics: How do you generate descriptive statistics for numerical columns?
+5. Missing Values: Are there any missing values in the dataset? If yes, in which columns?
+6. Unique Values: How many unique products are sold?
+7. Date Parsing: Convert the 'Order Date' column to a datetime type.
+8. Sorting Data: Sort the dataset by 'Order Date' in descending order.
+9. Filtering Data: Write a Python code to filter records only from the 'Furniture' category.
+10. Simple Aggregation: What is the total quantity sold for the 'Office Supplies' category?
+
+ Intermediate Level
+11. Group By Aggregations: What is the average unit selling price per category?
+12. Data Transformation: Create a new column 'Total Sales' as the product of 'Quantity' and 'Unit_Selling_Price'.
+13. Conditional Calculation: Calculate the total unit profit only for the 'Consumer' segment.
+14. Data Slicing: Extract data for the year 2023.
+15. Pivot Tables: Create a pivot table showing total quantity sold by state and category.
+16. Visualization: Plot a bar chart of total sales by category.
+17. Correlation Analysis: Find the correlation between 'Quantity' and 'Unit_Profit'.
+18. Handling Duplicates: Identify and remove any duplicate records in the dataset.
+19. Concatenation: Assume there is another similar dataset; how would you concatenate it with the current one?
+
+ Advanced Level
+20. Time-Series Analysis: Plot a time-series graph of monthly sales.
+21. Advanced Grouping: What is the monthly growth rate in sales for furniture?
+22. Multi-Level Sorting: Sort the dataset first by 'Category' and then by 'Unit_Profit' within each category.
+23. Data Merging: If there is a separate dataset with product details, demonstrate how to merge it with the current dataset on 'Product Id'.
+24. Outlier Detection: Identify potential outliers in 'Unit_Selling_Price' within each category.
+25. Predictive Modeling: Build a simple linear regression model to predict 'Unit_Profit' based on 'Unit_Selling_Price' and 'Quantity'.
+
+These questions provide a structured way to explore your dataset using Python and pandas, progressing in difficulty and helping you build a comprehensive project.
